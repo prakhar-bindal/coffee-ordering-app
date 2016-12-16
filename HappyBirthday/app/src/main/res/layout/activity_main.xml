@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.prakhar.happybirthday.MainActivity">
+
+
+    <ImageView
+        android:src="@drawable/happy"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy Birthday ben!"
+        android:paddingTop="16dp"
+        android:paddingLeft="8dp"
+        android:textColor="@android:color/white"
+        android:id="@+id/textView"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="from prakhar"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textSize="36sp"
+        android:paddingBottom="16dp"
+        android:paddingRight="8dp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"/>
+
+
+</RelativeLayout>
